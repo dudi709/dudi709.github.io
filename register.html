@@ -5,16 +5,21 @@
     </head>
 
     <body>
-        <form>
-            First Name: <input type ="text"><br>
-            Last Name: <input type ="text"><br>
-            Email: <input type ="email" required><br>
-            Birthday: <input type ="date"><br>
-            Gender: <input type ="radio" name="gender">Male <input type ="radio" name="gender">Female <input type ="radio" name="gender">Other<br>  
+        <div>
+            <form method="GET">
+                First Name: <input type ="text" name ="firstname"><br>
+                Last Name: <input type ="text" name ="lastname"><br>
+                Email: <input type ="email" name ="email" required><br>
+                Password: <input type ="password" name ="password" required minlength="5"><br>
+                Birthday: <input type ="date"><br>
+                Gender: <input type ="radio" name="gender" value="Male">Male 
+                        <input type ="radio" name="gender" value="Female">Female 
+                        <input type ="radio" name="gender" value="Other">Other<br>  
 
-            <input type="submit" value="Register">
-            <input type="reset">
-        </form>
+                <input type="submit" value="Register">
+                <input type="reset">
+            </form>
+        </div>
 
         <a href="index.html">Back to Homepage</a>
         
