@@ -1,0 +1,28 @@
+
+*{
+    text-align: center;
+}
+
+body{
+    color: white;
+    background-image: url(software_img.jpg);
+    background-size: cover;
+}
+
+#div0{
+    text-transform: uppercase;
+}
+
+#div1{
+    border: 3px dashed white;
+    font-style: italic;
+}
+
+#div2{
+    border: 3px dashed white;
+    font-style: italic;
+}
+
+.webtext{
+    font-size: 125%;
+}
