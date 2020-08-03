@@ -9,10 +9,6 @@ body{
     background-size: cover;
 }
 
-#div0{
-    text-transform: uppercase;
-}
-
 #div1{
     border: 3px dashed white;
     font-style: italic;
