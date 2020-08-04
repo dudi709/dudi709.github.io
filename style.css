@@ -77,6 +77,21 @@ footer{
     font-size: 60%;
     text-align: center;
 }
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+.img_icon{
+    flex: 1;
+    text-align: center;
+    vertical-align: central;
+    transition: 1s all;
+}
+
+.img_icon:hover{
+    width: 105%;
+}
 
 
 p.clear{
