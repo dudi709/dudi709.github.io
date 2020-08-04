@@ -20,6 +20,7 @@ header{
     height: 110px;
     border: 2px solid black;
     margin-bottom: 10px;
+    text-transform: uppercase;
     text-align: center;
 }
 
@@ -72,6 +73,8 @@ footer{
     float: left;
     margin-top: 10px;
     text-decoration: none;
+    text-transform: uppercase;
+    font-size: 60%;
     text-align: center;
 }
 
