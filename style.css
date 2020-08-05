@@ -1,4 +1,8 @@
 
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
 
 body{
     margin: 0;
@@ -14,7 +18,7 @@ body{
 }
 
 header{
-    background-image: url(./imgs/banner.jpg);
+    background-image: url(./imgs/banner1.jpg);
     background-size: cover;
     width: 100%;
     height: 110px;
@@ -38,6 +42,40 @@ nav{
     float: left;
 }
 
+.content h2:after,
+.content .row1 .box1 h3:after,
+.content .row1 .box2 h3:after {
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 5px;
+	border-radius: 2px;
+	box-shadow: 
+		inset 0 1px 1px rgba(0,0,0,0.5), 
+		0 1px 1px rgba(255,255,255,0.3);
+}
+
+.content h2:after,
+.content .row1 .box1 h3:after,
+.content .row1 .box2 h3:after { background: hsl(214, 96%, 19%); }
+
+.content h2,
+.content .row1 .box1 h3,
+.content .row1 .box2 h3{
+    margin: 1em 0 .6em 0;
+	padding: 0 0 0 20px;
+	font-weight: normal;
+	color: white;
+    font-family: 'Hammersmith One', sans-serif;
+    text-transform: uppercase;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+	position: relative;
+	font-size: 30px;
+    line-height: 40px;
+}
+
 
 .row1{
     display: flex;
@@ -58,7 +96,7 @@ nav{
 }
 
 .webtext {
-    width: 100px;
+    width: 120px;
     height: 2em;
     flex-wrap: wrap;
     display: inline-flex;
@@ -70,7 +108,11 @@ nav{
     margin: 5px;
     padding-left: .75em;
     padding-right: .75em;
+    transition: 0.8s all;
+}
 
+.webtext:hover{
+    background: hsl(214, 83%, 41%);
 }
 
 aside{
@@ -81,7 +123,7 @@ aside{
 }
 
 footer{
-    background-image: url(./imgs/banner.jpg);
+    background-image: url(./imgs/banner1.jpg);
     background-size: cover;
     width: 100%;
     height: 100px;
