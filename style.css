@@ -38,6 +38,7 @@ nav{
     float: left;
 }
 
+
 .row1{
     display: flex;
     justify-content: space-arounds;
@@ -54,6 +55,22 @@ nav{
 .row1 > div{
     border: 2px solid black;
     padding: 10px;
+}
+
+.webtext {
+    width: 100px;
+    height: 2em;
+    flex-wrap: wrap;
+    display: inline-flex;
+    align-items: center;
+    background: hsl(214, 96%, 19%);
+    border: solid 1px hsla(0, 0%, 100%, 0.641);
+    justify-content: center;
+    border-radius: 4px;
+    margin: 5px;
+    padding-left: .75em;
+    padding-right: .75em;
+
 }
 
 aside{
@@ -77,20 +94,18 @@ footer{
     font-size: 60%;
     text-align: center;
 }
-.icons{
+p.icons{
     display: flex;
     justify-content: center;
 }
 
-.img_icon{
-    flex: 1;
-    text-align: center;
-    vertical-align: central;
-    transition: 1s all;
+p.icons a{
+    margin: 0px 5px 0px 5px;
+    transition: 0.8s all;
 }
 
-.img_icon:hover{
-    width: 105%;
+p.icons a:hover{
+    transform:scale(1.5,1.5);
 }
 
 
