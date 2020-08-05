@@ -115,6 +115,21 @@ nav{
     background: hsl(214, 83%, 41%);
 }
 
+.btn {
+    background-color: hsl(214, 96%, 19%);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.8s all;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: hsl(214, 83%, 41%);
+  }
+
 aside{
     width: 30%;
     height: 400px;
