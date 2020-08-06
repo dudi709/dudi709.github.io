@@ -13,7 +13,7 @@ body{
 .all_site{
     margin: 0 auto;
     color: white;
-    padding: 10px;
+    
 }
 
 header{
@@ -25,6 +25,20 @@ header{
     margin-bottom: 10px;
     text-transform: uppercase;
     text-align: center;
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+header h1{
+    letter-spacing: 3px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+header h2{
+    border-bottom: 2px solid whitesmoke;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: -3px;
 }
 
 .content{
@@ -72,6 +86,9 @@ header{
     line-height: 40px;
 }
 
+.content .about > p{
+    margin-left: 10px;
+}
 
 .row1{
     display: flex;
