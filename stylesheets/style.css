@@ -183,3 +183,15 @@ p.icons a:hover{
 p.clear{
     clear: both;
 }
+
+
+@media only screen and (max-width: 1100px) {
+    footer{
+        height: 80px;
+        margin-top: 30px;
+    }
+
+    p.icons a{
+        margin: -20px 5px 0px 5px;
+    }
+}
